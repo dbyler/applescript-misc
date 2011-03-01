@@ -1,0 +1,1 @@
+﻿--Tells QuickTime to step forward by 150 frames (typically 5 seconds)--Keep in ~/Library/Scripts/Applications/QuickTime Player/tell application "QuickTime Player"	step forward document 1 by 150	play document 1end tell
