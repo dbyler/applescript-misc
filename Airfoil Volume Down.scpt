@@ -1,0 +1,1 @@
+﻿property volume_multiplier : 0.8tell application "Airfoil"	set all_speakers to (get every speaker)	repeat with this_speaker in all_speakers		set curr_volume to get volume of this_speaker		set (volume of this_speaker) to (curr_volume * volume_multiplier)		if (volume of this_speaker) is 0 then set (volume of this_speaker) to 0.1	end repeatend tell
