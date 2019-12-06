@@ -8,3 +8,6 @@ Miscellaneous scripts for miscellaneous things
 - Forward 5s
 - Jump to time
 - Resume track in iTunes
+
+# For Beeminder
+- Beemind awesomely!
